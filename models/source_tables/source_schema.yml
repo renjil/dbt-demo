@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: source_tables
+    schema: dbt_demo
+    tables:
+      - name: jaffle_shop_customers
+      - name: jaffle_shop_orders
